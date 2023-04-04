@@ -1,0 +1,75 @@
+
+body{
+    background-color: rgb(1, 1, 29);
+}
+table{
+    background-color: rgb(1, 1, 29);;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    /* border-spacing: 10px 5px; */
+    /* border: 1px solid black; */
+    /* border-collapse: collapse; */
+
+}
+.one{
+    text-align: left;
+    color:rgba(123, 123, 216, 0.945);
+    padding: 10px;
+    /* border-collapse: collapse; */
+    
+
+}
+.two{
+    color: rgb(252, 73, 73);
+}
+td{
+    color: azure;
+    padding: 10px;
+}
+.three{
+    background-color: rgb(44, 42, 42);
+}
+.forth{
+    background-color: rgb(32, 34, 44);
+}
+.fifth{
+    background-color: rgb(38, 38, 56);
+}
+td:hover{
+  /* background: transparent; */
+    /* border: 2px solid #000; */
+    background-color:  rgba(243, 243, 34, 0.932);
+    padding-top: 5px;
+    transform: scale(1.2);
+    transition: transform 400ms ease-in;
+    color: black;
+
+}
+td:hover::after{
+    top:5px;
+    left: 5px;
+    /* box-sizing: content-box; */
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.onee{
+    color:rgba(123, 123, 216, 0.945);
+}
+.own{
+    color: rgb(135, 207, 240);
+}
+.pon{
+    color: yellow;
+}
+.pan{
+    font-family: sans-serif;
+    font-size: 100%;
+    color: rgb(252, 73, 73);
+}
+th{
+    padding: 10px;
+}
