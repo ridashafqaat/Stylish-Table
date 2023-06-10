@@ -1,2 +1,2 @@
 # Stylish-Table
-This table is a stylish and 
+This table is a stylish  
